@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codurance.CLI", "Codurance.CLI\Codurance.CLI.csproj", "{B884EAF7-BA9A-4DDC-82B6-F3619078C1E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codurance.Business.Model", "Codurance.Business.Model\Codurance.Business.Model.csproj", "{BE06F7DA-8AD7-4FE3-A176-C6726C284D08}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{B83E126A-E088-4480-95F3-98C2679B72B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codurance.Shared", "Codurance.Shared\Codurance.Shared.csproj", "{86C01882-1357-40C8-99D6-37DD87C3D50F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codurance.Business.Commands", "Codurance.Business.Commands\Codurance.Business.Commands.csproj", "{551CAA62-3B20-4E00-AC11-3020EB809B90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codurance.Repository.SQLCE", "Codurance.Repository.SQLCE\Codurance.Repository.SQLCE.csproj", "{67AD4940-97D2-431C-9557-5E0C1BBDEB49}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{DEED2EC8-8C3D-44F8-A331-05EB477AD598}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codurance.Tests", "Codurance.Tests\Codurance.Tests.csproj", "{F67CB080-1939-4F13-B015-D1105A9E4AE8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{81D215C4-D0B8-4DDE-84DD-DF576B4E1AC4}"
+	ProjectSection(SolutionItems) = preProject
+		README.txt = README.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B884EAF7-BA9A-4DDC-82B6-F3619078C1E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B884EAF7-BA9A-4DDC-82B6-F3619078C1E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B884EAF7-BA9A-4DDC-82B6-F3619078C1E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B884EAF7-BA9A-4DDC-82B6-F3619078C1E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE06F7DA-8AD7-4FE3-A176-C6726C284D08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE06F7DA-8AD7-4FE3-A176-C6726C284D08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE06F7DA-8AD7-4FE3-A176-C6726C284D08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE06F7DA-8AD7-4FE3-A176-C6726C284D08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86C01882-1357-40C8-99D6-37DD87C3D50F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86C01882-1357-40C8-99D6-37DD87C3D50F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86C01882-1357-40C8-99D6-37DD87C3D50F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86C01882-1357-40C8-99D6-37DD87C3D50F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{551CAA62-3B20-4E00-AC11-3020EB809B90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{551CAA62-3B20-4E00-AC11-3020EB809B90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{551CAA62-3B20-4E00-AC11-3020EB809B90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{551CAA62-3B20-4E00-AC11-3020EB809B90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67AD4940-97D2-431C-9557-5E0C1BBDEB49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67AD4940-97D2-431C-9557-5E0C1BBDEB49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67AD4940-97D2-431C-9557-5E0C1BBDEB49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67AD4940-97D2-431C-9557-5E0C1BBDEB49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F67CB080-1939-4F13-B015-D1105A9E4AE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F67CB080-1939-4F13-B015-D1105A9E4AE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F67CB080-1939-4F13-B015-D1105A9E4AE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F67CB080-1939-4F13-B015-D1105A9E4AE8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{86C01882-1357-40C8-99D6-37DD87C3D50F} = {B83E126A-E088-4480-95F3-98C2679B72B2}
+		{F67CB080-1939-4F13-B015-D1105A9E4AE8} = {DEED2EC8-8C3D-44F8-A331-05EB477AD598}
+	EndGlobalSection
+EndGlobal
